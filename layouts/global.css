@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Nerd";
+  src: local("Oxygen"),
+    url(~assets/fonts/nerd.ttf) format("truetype");
+}
+
+html {
+  font-family: "Nerd";
+}
