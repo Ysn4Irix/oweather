@@ -9,6 +9,8 @@
 <p align="center">
   <img width="150px" src="https://res.cloudinary.com/ydevcloud/image/upload/v1658183205/yassi/muiowmxyaqjatupddvma.svg" align="center" alt="nuxt" />
   &nbsp; &nbsp; &nbsp;
+  <img width="150px" src="https://res.cloudinary.com/ydevcloud/image/upload/v1660842725/yassi/dglubft3rg2iuh6fxsaf.svg" align="center" alt="tailwind" />
+  &nbsp; &nbsp; &nbsp;
   <img width="150px" src="https://res.cloudinary.com/ydevcloud/image/upload/v1660839307/yassi/iub6lpcorvsmyxhf44bz.svg" align="center" alt="mapbox" />
    &nbsp; &nbsp; &nbsp;
   <img width="150px" src="https://res.cloudinary.com/ydevcloud/image/upload/v1660839441/yassi/y1wrguqhaynuwyvi5djq.svg" align="center" alt="openweather" />
