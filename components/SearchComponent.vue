@@ -74,9 +74,7 @@ export default {
       if (this.searchQuery !== "") {
         try {
           const data = (
-            await this.$mapBoxApi.get(
-              `/geocoding/v5/mapbox.places/${this.searchQuery}.json?access_token=${process.env.NUXT_ENV_MAPBOX_ACCESS_TOKEN}&types=place`
-            )
+            await this.$axios.get(`/oweather/api/search/${this.searchQuery}`)
           ).data;
           this.mapboxSearchResults = data.features;
         } catch {

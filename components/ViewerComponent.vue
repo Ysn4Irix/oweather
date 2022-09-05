@@ -175,9 +175,7 @@ export default {
       try {
         const { lat, lng } = this.$route.params;
         const data = (
-          await this.$openWeatherApi.get(
-            `/data/3.0/onecall?lat=${lat}&lon=${lng}&appid=${process.env.NUXT_ENV_OPENWEATHER_ACCESS_TOKEN}&units=metric`
-          )
+          await this.$axios.get(`/oweather/api/weatherData/${lat}/${lng}`)
         ).data;
 
         // cal current date & time
