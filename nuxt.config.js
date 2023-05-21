@@ -61,7 +61,7 @@ export default {
   },
   serverMiddleware: [`~/serverMiddleware/oweather`],
   server: {
-    port: 1415, // default: 3000
+    port: process.env.NODE_ENV === "production" ? 80 : 1415, // default: 3000
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
