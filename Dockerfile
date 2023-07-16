@@ -14,8 +14,7 @@ COPY package.json ./
 RUN npm install
 COPY . .
 RUN npm run build && npm prune --production
-ENV NODE_ENV production
 ENV HOST 0.0.0.0
-ENV PORT 80
-EXPOSE 80
+ENV PORT 1415
+EXPOSE 1415
 CMD ["npm", "start"]
